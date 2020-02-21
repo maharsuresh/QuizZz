@@ -23,6 +23,7 @@ import jorge.rv.quizzz.service.usermanagement.RegistrationService;
 @Controller
 @RequestMapping("/user")
 public class RegistrationController {
+	System.out.println("Test");
 
 	@Autowired
 	private RegistrationService registrationService;
